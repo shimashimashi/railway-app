@@ -168,12 +168,10 @@ export function TourMap({ zoom }: Props) {
               </li>
             </ul>
             <ul className={styles.statusList}>
-              <li className={styles.status}>移動回数：{current}</li>
+              <li className={styles.status}>移動回数:{current}</li>
               <li className={styles.status}>
-                訪問済みの駅：
-                {`${visitedStations}（${visitedStationsPercentage.toFixed(
-                  2,
-                )}%）`}
+                訪問済みの駅:
+                {`${visitedStations}(${visitedStationsPercentage.toFixed(2)}%)`}
               </li>
             </ul>
           </div>
