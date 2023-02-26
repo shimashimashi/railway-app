@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/railway-app/static/css/main.2ae3cd88.css",
-    "main.js": "/railway-app/static/js/main.52365431.js",
+    "main.css": "/railway-app/static/css/main.e9635116.css",
+    "main.js": "/railway-app/static/js/main.5dc27ac5.js",
     "static/js/185.6f39467c.chunk.js": "/railway-app/static/js/185.6f39467c.chunk.js",
     "static/js/69.22edb712.chunk.js": "/railway-app/static/js/69.22edb712.chunk.js",
     "static/js/217.5b6c38ea.chunk.js": "/railway-app/static/js/217.5b6c38ea.chunk.js",
     "static/js/787.c1112931.chunk.js": "/railway-app/static/js/787.c1112931.chunk.js",
     "index.html": "/railway-app/index.html",
-    "main.2ae3cd88.css.map": "/railway-app/static/css/main.2ae3cd88.css.map",
-    "main.52365431.js.map": "/railway-app/static/js/main.52365431.js.map",
+    "main.e9635116.css.map": "/railway-app/static/css/main.e9635116.css.map",
+    "main.5dc27ac5.js.map": "/railway-app/static/js/main.5dc27ac5.js.map",
     "787.c1112931.chunk.js.map": "/railway-app/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ae3cd88.css",
-    "static/js/main.52365431.js"
+    "static/css/main.e9635116.css",
+    "static/js/main.5dc27ac5.js"
   ]
 }
