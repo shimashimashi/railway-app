@@ -197,6 +197,7 @@ export function TourMap({ zoom }: Props) {
         <div className={styles.search}>
           <form onSubmit={handleSubmit(onSubmit)}>
             <input
+              className={styles.input}
               {...register('query')}
               type='search'
               placeholder='駅名を検索する'
