@@ -1,0 +1,61 @@
+.map {
+  height: 450px;
+
+  .information {
+    padding: 16px;
+  }
+
+  .station {
+    font-size: 16px;
+  }
+
+  .statusList {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+  }
+
+  .status {
+    list-style: none;
+    font-size: 12px;
+    color: rgb(32, 32, 32);
+    &:nth-child(n + 2) {
+      padding-left: 8px;
+    }
+  }
+
+  .control {
+    margin-top: 8px;
+    white-space: nowrap;
+    display: grid;
+    grid-gap: 12px;
+    grid-auto-flow: column;
+    overflow-y: hidden;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  .button {
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 32px;
+    background-color: white;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+
+    &:active {
+      background-color: rgb(128, 128, 128, 0.25);
+    }
+  }
+
+  .search {
+    margin-top: 8px;
+  }
+
+  .notFound {
+    font-size: 12px;
+    margin-top: 4px;
+  }
+}
