@@ -1,12 +1,12 @@
 .map {
-  height: 450px;
+  height: 400px;
 
   .information {
     padding: 16px;
   }
 
   .station {
-    font-size: 16px;
+    font-size: 24px;
   }
 
   .statusList {
@@ -17,7 +17,7 @@
 
   .status {
     list-style: none;
-    font-size: 12px;
+    font-size: 16px;
     color: rgb(32, 32, 32);
     &:nth-child(n + 2) {
       padding-left: 8px;
@@ -37,7 +37,7 @@
   }
 
   .button {
-    font-size: 12px;
+    font-size: 16px;
     padding: 4px 12px;
     border-radius: 32px;
     background-color: white;
@@ -51,11 +51,14 @@
   }
 
   .search {
-    margin-top: 8px;
+    margin-top: 16px;
   }
 
   .notFound {
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 4px;
+    height: 32px;
+    width: 256px;
+    padding: 8px;
   }
 }
